@@ -1,0 +1,15 @@
+{
+  "warning": "Warning",
+  "unknown_error": "There was an unknown error.",
+  "timeout_error": "Timeout error",
+  "cancel_error": "Cancel error",
+  "bad_certificate_error": "Bad certificate error",
+  "connection_error": "Connection error",
+  "error_occurred_during_request": "An error occurred during the request.",
+  "manufacturers": "Manufacturers",
+  "close": "Close",
+  "models": "Models",
+  "could_not_namespace_json": "Could not namespace JSON",
+  "unauthorized": "Unauthorized",
+  "internal_server_error": "Internal server error"
+}
