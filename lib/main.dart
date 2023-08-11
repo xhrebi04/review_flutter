@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-        title: 'Review Flutter app',
+        title: 'Review Flutter App',
         debugShowCheckedModeBanner: false,
         localizationsDelegates: const [
           S.delegate,

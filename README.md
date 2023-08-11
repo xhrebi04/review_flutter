@@ -16,7 +16,7 @@ Flutter Review App is written in Flutter (SDK 3.10.6) and uses number of open so
 
 ## Installation
 
-Flutter Review App requires [Flutter SDK 3.10.4](https://docs.flutter.dev/release/archive?tab=macos) to run. Then follow these commands:
+Flutter Review App requires [Flutter SDK 3.10.6](https://docs.flutter.dev/release/archive?tab=macos) to run. Then follow these commands:
 
 ```sh
 cd review_flutter-main
