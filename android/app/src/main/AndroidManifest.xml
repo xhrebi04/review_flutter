@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.review_flutter">
+
+   <!-- List of permissions --> 
    <uses-permission android:name="android.permission.INTERNET" />
+   
+   <!-- Application --> 
    <application
         android:label="review_flutter"
         android:name="${applicationName}"
