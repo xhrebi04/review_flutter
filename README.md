@@ -24,7 +24,7 @@ flutter pub get
 flutter run
 ```
 
-## Apk
+## Apk (Android)
 
 To make testing this mobile app easier, the `app-release.apk` file is located in the `/apk/release` folder.
 
