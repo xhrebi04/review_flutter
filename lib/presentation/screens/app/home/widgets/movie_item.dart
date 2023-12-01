@@ -15,7 +15,7 @@ class MovieItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(12.0),
       child: GestureDetector(
           onTap: () => onItemPress(context), child: Text(movie.movie)),
     );

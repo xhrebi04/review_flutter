@@ -14,6 +14,7 @@ class MyTheme {
     return const AppBarTheme(
         scrolledUnderElevation: 0,
         backgroundColor: MyColors.black,
+        iconTheme: IconThemeData(color: MyColors.white),
         centerTitle: true);
   }
 }
