@@ -8,4 +8,8 @@ class MovieApi {
   Future<Response> getMoviesRequest() async {
     return await dio.get('/movies');
   }
+
+  Future<Response> getMovieDetailRequest(int movieId) async {
+    return await dio.get('/movies/$movieId');
+  }
 }

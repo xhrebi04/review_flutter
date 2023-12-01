@@ -22,24 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "bad_certificate_error":
-            MessageLookupByLibrary.simpleMessage("Bad certificate error"),
-        "cancel_error": MessageLookupByLibrary.simpleMessage("Cancel error"),
-        "close": MessageLookupByLibrary.simpleMessage("Close"),
-        "connection_error":
-            MessageLookupByLibrary.simpleMessage("Connection error"),
-        "could_not_namespace_json":
-            MessageLookupByLibrary.simpleMessage("Could not namespace JSON"),
-        "error_occurred_during_request": MessageLookupByLibrary.simpleMessage(
-            "An error occurred during the request."),
-        "internal_server_error":
-            MessageLookupByLibrary.simpleMessage("Internal server error"),
-        "manufacturers": MessageLookupByLibrary.simpleMessage("Manufacturers"),
-        "models": MessageLookupByLibrary.simpleMessage("Models"),
-        "timeout_error": MessageLookupByLibrary.simpleMessage("Timeout error"),
-        "unauthorized": MessageLookupByLibrary.simpleMessage("Unauthorized"),
-        "unknown_error":
-            MessageLookupByLibrary.simpleMessage("There was an unknown error."),
-        "warning": MessageLookupByLibrary.simpleMessage("Warning")
+        "detail": MessageLookupByLibrary.simpleMessage("Detail"),
+        "movies": MessageLookupByLibrary.simpleMessage("Movies")
       };
 }
