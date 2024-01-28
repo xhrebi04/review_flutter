@@ -10,14 +10,12 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 void main() async {
   await dotenv.load(fileName: ".env");
 
-  // Define API client/s
+  // API client/s
   ApiClient apiClient = ApiClient();
 
-  // Define API sources
+  // Data provider/s
   MovieApi movieAPI = MovieApi(apiClient.dio);
 
-  // Define App Router
-  // Pass all API sources through constructor or use some DI library
   final AppRouter appRouter = AppRouter(movieAPI: movieAPI);
 
   runApp(MyApp(appRouter: appRouter));
