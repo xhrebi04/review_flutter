@@ -1,4 +1,10 @@
 {
   "movies": "Movies",
-  "detail": "Detail"
+  "detail": "Detail",
+  "timeout_error": "Timeout error",
+  "bad_certificate_error": "Bad certificate error",
+  "connection_error": "Connection error",
+  "bad_response_error": "Bad response error",
+  "cancel_error": "Cancel error",
+  "unknown_error": "There was an unknown error."
 }

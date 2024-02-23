@@ -9,23 +9,11 @@ class MovieRepository {
 
   Future<List<MovieModel>> getAllMovies() async {
     Response response = await movieAPI.getMoviesRequest();
-
-    if (response.statusCode == 200) {
-      return (response.data as List)
-          .map((e) => MovieModel.fromJson(e))
-          .toList();
-    } else {
-      throw Exception('Fetch movies error');
-    }
+    return (response.data as List).map((e) => MovieModel.fromJson(e)).toList();
   }
 
   Future<MovieModel> getMovieDetail(int movieId) async {
     Response response = await movieAPI.getMovieDetailRequest(movieId);
-
-    if (response.statusCode == 200) {
-      return MovieModel.fromJson(response.data);
-    } else {
-      throw Exception('Fetch movies error');
-    }
+    return MovieModel.fromJson(response.data);
   }
 }

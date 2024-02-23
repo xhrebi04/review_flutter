@@ -22,7 +22,17 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "bad_certificate_error":
+            MessageLookupByLibrary.simpleMessage("Bad certificate error"),
+        "bad_response_error":
+            MessageLookupByLibrary.simpleMessage("Bad response error"),
+        "cancel_error": MessageLookupByLibrary.simpleMessage("Cancel error"),
+        "connection_error":
+            MessageLookupByLibrary.simpleMessage("Connection error"),
         "detail": MessageLookupByLibrary.simpleMessage("Detail"),
-        "movies": MessageLookupByLibrary.simpleMessage("Movies")
+        "movies": MessageLookupByLibrary.simpleMessage("Movies"),
+        "timeout_error": MessageLookupByLibrary.simpleMessage("Timeout error"),
+        "unknown_error":
+            MessageLookupByLibrary.simpleMessage("There was an unknown error.")
       };
 }

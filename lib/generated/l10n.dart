@@ -69,6 +69,66 @@ class S {
       args: [],
     );
   }
+
+  /// `Timeout error`
+  String get timeout_error {
+    return Intl.message(
+      'Timeout error',
+      name: 'timeout_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bad certificate error`
+  String get bad_certificate_error {
+    return Intl.message(
+      'Bad certificate error',
+      name: 'bad_certificate_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Connection error`
+  String get connection_error {
+    return Intl.message(
+      'Connection error',
+      name: 'connection_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Bad response error`
+  String get bad_response_error {
+    return Intl.message(
+      'Bad response error',
+      name: 'bad_response_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cancel error`
+  String get cancel_error {
+    return Intl.message(
+      'Cancel error',
+      name: 'cancel_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `There was an unknown error.`
+  String get unknown_error {
+    return Intl.message(
+      'There was an unknown error.',
+      name: 'unknown_error',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
